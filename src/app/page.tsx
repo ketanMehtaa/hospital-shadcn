@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Header from '../components/Header';
 import Startcarousel from '@/components/Startcarousel';
 import CalEmbed from '../components/CalEmbed.js';
+import { Testimonials } from '@/components/Testimonials';
 export default function Home() {
   return (
     <>
@@ -13,6 +14,9 @@ export default function Home() {
             Book Your Appointment for Online or Offline Consultation.
           </h2>
           <CalEmbed />
+        </div>
+        <div className="lg:px-8">
+          <Testimonials />
         </div>
         <div className="flex justify-center flex-col p-5">
           <h2 className="text-xl font-semibold text-center my-4 md:text-3xl lg:text-4xl">Locate Us.</h2>
