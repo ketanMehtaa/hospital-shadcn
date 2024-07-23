@@ -37,7 +37,7 @@ export default function Startcarousel() {
             <CarouselItem key={index}>
               <div className="">
                 <Card>
-                  <CardContent className="flex aspect-square items-center justify-center p-2  md:h-3/4">
+                  <CardContent className="z">
                     <Image src={img} alt={`image ${index + 1}`} />
                   </CardContent>
                 </Card>

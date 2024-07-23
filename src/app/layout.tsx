@@ -1,12 +1,11 @@
 import type { Metadata } from 'next';
 import { Inter as FontSans } from 'next/font/google';
+import Head from 'next/head';
 import './globals.css';
 
-// const inter = Inter({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
-  title: 'sharda ent hospital',
-  description: 'best ent hospital in haldwani',
+  title: 'Sharda ENT Hospital - Haldwani',
+  description: 'Sharda ENT Hospital - Best ENT care in Haldwani for Eye, Nose, and Throat.',
 };
 
 import { cn } from '@/lib/utils';
@@ -23,8 +22,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* <body className={inter.className}>{children}</body> */}
-      <body className={cn('min-h-screen bg-background font-sans antialiased', fontSans.variable)}>{children}</body>
+      <Head>
+        <meta name="description" content="Sharda ENT Hospital - Best ENT care in Haldwani for Eye, Nose, and Throat." />
+        <meta property="og:image" content="/images/sharda-ent-social.png" />
+        <meta property="og:description" content="Sharda ENT Hospital in Haldwani - Comprehensive Care for Eye, Nose, and Throat" />
+        <meta property="og:title" content="Sharda ENT Hospital - Haldwani's Best ENT Care" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="/images/sharda-ent-social.png" />
+        <meta name="twitter:description" content="Sharda ENT Hospital in Haldwani - Comprehensive Care for Eye, Nose, and Throat" />
+        <meta name="twitter:title" content="Sharda ENT Hospital - Haldwani's Best ENT Care" />
+      </Head>
+      <body className={cn('min-h-screen bg-background font-sans antialiased', fontSans.variable)}>
+        {children}
+      </body>
     </html>
   );
 }
