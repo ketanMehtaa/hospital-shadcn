@@ -22,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className='no-scrollbar'>
       <Head>
         <meta name="description" content="Sharda ENT Hospital - Best ENT care in Haldwani for Eye, Nose, and Throat." />
         <meta property="og:image" content="/images/sharda-ent-social.png" />

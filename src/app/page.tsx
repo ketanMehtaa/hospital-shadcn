@@ -11,7 +11,7 @@ export default function Home() {
       <main>
         <Header />
         <Startcarousel />
-        <div>
+        <div >
           <h2 className="text-xl font-semibold text-center my-4 md:text-3xl lg:text-4xl">
             Book Your Appointment for Online or Offline Consultation.
           </h2>

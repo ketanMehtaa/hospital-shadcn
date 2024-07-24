@@ -21,7 +21,7 @@ export default function Startcarousel() {
   const plugin = React.useRef(Autoplay({ delay: 2000, stopOnInteraction: true }));
 
   return (
-    <div className="flex justify-center p-5 md:p-12">
+    <div className="flex justify-center p-5 md:p-12 mt-20">
       <Carousel
         plugins={[plugin.current]}
         className="md:w-2/5 w-auto"
