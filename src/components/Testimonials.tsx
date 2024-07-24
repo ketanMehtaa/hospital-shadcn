@@ -2,11 +2,11 @@ import clsx from 'clsx';
 import Image from 'next/image';
 
 const featuredTestimonial = {
-  body: 'Thanks to their care, I can finally breathe easy and hear clearly again – they ve truly transformed my life!"',
+  body: `Dr. Lalit pokhariya and the medical staff were exceptionally professional and attentive. They took the time to listen to my concerns, conducted a thorough examination, and explained the diagnosis and treatment options in a clear and understandable manner.`,
   author: {
-    name: 'Ketan Mehta',
-    handle: 'ketanmehtaa',
-    imageUrl: 'https://pbs.twimg.com/profile_images/1651273413053542400/6ul40RRM_400x400.jpg',
+    name: 'Rahul Singh Adhikari',
+    handle: 'RahulSingh',
+    imageUrl: 'https://lh3.googleusercontent.com/a-/ALV-UjWlNdlJhEgwVwrF9YTAPdasOYufrii1vrjWnfY1o6kzRQ5UI8l50A=w75-h75-p-rp-mo-ba2-br100',
     logoUrl: '/images/logos/resend.svg',
   },
 };
@@ -21,19 +21,19 @@ const testimonials: {
   [
     [
       {
-        body: 'After years of struggling with hearing loss, the expertise here has given me my life back. I can’t thank them enough.',
+        body: 'Excellent  treatment  in sharda ent hospital  advice people  to visited  hospitals  for any ent problem.',
         author: {
-          name: 'Amit Kumar',
-          handle: 'amitkmr',
-          imageUrl: 'https://pbs.twimg.com/profile_images/1506792347840888834/dS-r50Je_400x400.jpg',
+          name: 'anju bisht',
+          handle: 'anjubisht',
+          imageUrl: 'https://lh3.googleusercontent.com/a-/ALV-UjU_-loIMjk5Wkaqs913HB6kjU1mV-90KFnsNwRc0tQaaA3rZPo=w75-h75-p-rp-mo-br100',
         },
       },
       {
         body: 'The care and attention I received were exceptional. My surgery was smooth, and the recovery was quick.',
         author: {
-          name: 'Piyush Mehra',
-          handle: 'piyushmhr',
-          imageUrl: 'https://pbs.twimg.com/profile_images/1506792347840888834/dS-r50Je_400x400.jpg',
+          name: 'Deepash Tiwari',
+          handle: 'DeepashTiwari',
+          imageUrl: '	https://lh3.googleusercontent.com/a-/ALV-UjXFv0az5rI5j_K5eoMtfKH87ibcve5RstX78T6PPyJ_EAgG5n8=w75-h75-p-rp-mo-br100',
         },
       },
       {
@@ -50,10 +50,10 @@ const testimonials: {
       {
         body: `They diagnosed my ear problem quickly and provided effective treatment. The professionalism and compassion are unmatched. Thanks to their expertise, my sleep apnea is now manageable. The improvement in my quality of life is incredible.`,
         author: {
-          name: 'Shilpa Singh',
-          handle: 'shilpa',
+          name: 'kadir ansari',
+          handle: 'kadir',
           imageUrl:
-            'https://ph-avatars.imgix.net/28450/8c4c8039-003a-4b3f-80ec-7035cedb6ac3?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=120&h=120&fit=crop&dpr=2',
+            'https://lh3.googleusercontent.com/a-/ALV-UjXNYDLMrikxJAnYQ5Wz6ymDsXz-QLg2Nt6dW_qzMpSdPa8jU8hw_w=w45-h45-p-rp-mo-br100',
         },
       },
     ],
@@ -72,7 +72,7 @@ const testimonials: {
         body: 'The personalized care I received was outstanding. Everything was explained in detail, and all my questions were answered.',
         author: {
           name: 'Prem Saini',
-          handle: 'prem_saini1',
+          handle: 'premsaini',
           imageUrl:
             'https://ph-avatars.imgix.net/4438396/079fabcb-7d01-42d9-a98f-2fc7befce04e?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=120&h=120&fit=crop&dpr=2',
         },
@@ -80,20 +80,20 @@ const testimonials: {
     ],
     [
       {
-        body: 'Thanks to their expertise, my sleep apnea is now manageable. The improvement in my quality of life is incredible.',
+        body: `Sharda ENT Hospital is highly regarded for its expertise in ear, nose, and throat care. Patients often praise its skilled doctors, modern facilities, and personalized approach to treatment. Overall, it's considered a top choice for ENT care.'`,
         author: {
-          name: 'Rohit Bist',
-          handle: 'rohitbist',
-          imageUrl: 'https://pbs.twimg.com/profile_images/1506792347840888834/dS-r50Je_400x400.jpg',
+          name: 'Kaif mikrani',
+          handle: 'Kaifmikrani',
+          imageUrl: 'https://lh3.googleusercontent.com/a-/ALV-UjUxP5z0oEGp2cyWdmLvBT_2X4pozY6jQeVALmkdBJmxysPVNsoA=w75-h75-p-rp-mo-br100',
         },
       },
       {
         body: `Their expertise in treating my allergies has been a game-changer. I no longer suffer from constant congestion and discomfort.`,
         author: {
-          name: 'Manjeet singh',
-          handle: 'manjeet',
+          name: 'Rahul Kumar',
+          handle: 'RahulKumar',
           imageUrl:
-            'https://ph-avatars.imgix.net/3523155/original?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=120&h=120&fit=crop&dpr=2',
+            'https://lh3.googleusercontent.com/a-/ALV-UjXmVtA9PeDDETyOqHhKfdFW5hBzQqmPSKwjYWoFAdMkVk4kLe_d=w75-h75-p-rp-mo-br100',
         },
       },
     ],
