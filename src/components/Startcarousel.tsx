@@ -21,10 +21,10 @@ export default function Startcarousel() {
   const plugin = React.useRef(Autoplay({ delay: 2000, stopOnInteraction: true }));
 
   return (
-    <div className="flex justify-center p-5 md:p-12 mt-20">
-      <Carousel
+    <div className="mt-20 flex justify-center">
+      <Carousel 
         plugins={[plugin.current]}
-        className="md:w-2/5 w-auto"
+        className="w-full max-w-lg"
         onMouseEnter={plugin.current.stop}
         onMouseLeave={plugin.current.reset}
         opts={{
@@ -37,7 +37,7 @@ export default function Startcarousel() {
             <CarouselItem key={index}>
               <div className="">
                 <Card>
-                  <CardContent className="z">
+                  <CardContent className="flex aspect-square items-center justify-center p-6">
                     <Image src={img} alt={`image ${index + 1}`} />
                   </CardContent>
                 </Card>
