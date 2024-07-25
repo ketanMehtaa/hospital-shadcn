@@ -42,7 +42,7 @@ const faqs = [
         You can contact us via phone at{" "}
         <a
           href="tel:+919548040347"
-          className="font-semibold hover:underline"
+          className="font-semibold underline"
         >
           +919548040347
         </a>{" "}
@@ -50,7 +50,7 @@ const faqs = [
         <a
           href="mailto:shardaEntHospital@gmail.com"
           target="_blank"
-          className="font-semibold hover:underline"
+          className="font-semibold underline"
         >
           shardaEntHospital@gmail.com
         </a>
