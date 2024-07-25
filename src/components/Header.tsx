@@ -13,6 +13,7 @@ const routes = [
   { href: '/', label: 'Book Appointment' },
   { href: '/', label: 'About us' },
   { href: '/', label: 'Locate us' },
+  { href: '/', label: 'Pricing' },
 ];
 const Header = () => {
   return (
