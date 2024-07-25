@@ -5,6 +5,7 @@ import CalEnt from '../components/CalEnt.js';
 import CalOpd from '../components/CalOpd.js';
 
 import { Testimonials } from '@/components/Testimonials';
+import { FAQs } from '@/components/FAQs';
 export default function Home() {
   return (
     <>
@@ -21,6 +22,7 @@ export default function Home() {
         <div className="lg:px-8">
           <Testimonials />
         </div>
+        <FAQs />
         <div className="flex justify-center flex-col p-5">
           <h2 className="text-xl font-semibold text-center my-4 md:text-3xl lg:text-4xl">Locate Us.</h2>
           <div className="flex justify-center md:h-dvh h-96">
