@@ -35,7 +35,7 @@ const Header = () => {
               </SheetContent>
             </Sheet>
             <Link href="/" className="ml-4 lg:ml-0">
-              <h1 className=" text-xl font-bold"> Sharda Ent Hospital</h1>
+              <h1 className=" tracking-tight text-gray-900 text-xl font-bold"> Sharda Ent Hospital</h1>
             </Link>
           </div>
           <nav className="mx-6 flex items-center space-x-4 lg:space-x-6  lg:block hidden">
