@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import Image from 'next/image';
 
 const featuredTestimonial = {
-  body: `Dr. Lalit pokhariya and the medical staff were exceptionally professional and attentive. They took the time to listen to my concerns, conducted a thorough examination, and explained the diagnosis and treatment options in a clear and understandable manner.`,
+  body: `Dr. Lalit Pokharia and the medical staff were exceptionally professional and attentive. They took the time to listen to my concerns, conducted a thorough examination, and explained the diagnosis and treatment options in a clear and understandable manner.`,
   author: {
     name: 'Rahul Singh Adhikari',
     handle: 'RahulSingh',
