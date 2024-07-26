@@ -102,7 +102,7 @@ const testimonials: {
 
 export function Testimonials() {
   return (
-    <div className="relative isolate bg-white pb-20 pt-24 sm:pt-32">
+    <div className="relative isolate bg-white pb-20 pt-12 sm:pt-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-xl text-center">
           <h2 className="text-lg font-semibold leading-8 tracking-tight text-blue-600">Sharda Ent Hospital</h2>
