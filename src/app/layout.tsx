@@ -3,6 +3,7 @@ import { Inter as FontSans } from 'next/font/google';
 import './globals.css';
 import { CSPostHogProvider } from './providers';
 import { cn } from '@/lib/utils';
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const fontSans = FontSans({
   subsets: ['latin'],
@@ -32,6 +33,8 @@ export default function RootLayout({
       <CSPostHogProvider>
         <body className={cn('min-h-screen bg-background font-sans antialiased', fontSans.variable)}>
           {children}
+          <GoogleAnalytics gaId="AW-772121122" />
+
         </body>
       </CSPostHogProvider>
     </html>
