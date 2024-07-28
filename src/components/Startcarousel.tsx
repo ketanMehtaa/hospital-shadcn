@@ -41,8 +41,8 @@ export default function Startcarousel() {
                     <Image
                       src={img}
                       alt={`image ${index + 1}`}
-                      layout="fill"
-                      objectFit="cover"
+                      fill
+                      style={{objectFit:"cover"}}
                       
                     />
                   </div>
