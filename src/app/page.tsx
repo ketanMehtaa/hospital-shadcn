@@ -25,7 +25,7 @@ export default function Home() {
           <Testimonials />
         </div>
         <FAQs />
-        <div className="flex justify-center flex-col p-5">
+        {/* <div className="flex justify-center flex-col p-5">
           <h2 className=" text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center m-4">Locate Us.</h2>
           <div className="flex justify-center md:h-80 h-80">
             <iframe
@@ -37,7 +37,7 @@ export default function Home() {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-        </div>
+        </div> */}
         <Footer/>
       </main>
     </>
