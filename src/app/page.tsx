@@ -16,7 +16,8 @@ export default function Home() {
         <Startcarousel />
         <div >
           <h2 className=" text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center mt-[60px] mb-[40px] ml-2 mr-2">
-            Book Your Appointment.
+            Book Your Appointment. 
+            
           </h2>
           <CalEnt />
           <CalOpd />
