@@ -71,7 +71,7 @@ export const metadata = {
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'Customer Service',
-      telephone: '+91-9548040347', // Replace with your contact number
+      telephone: '+91-8449473664', // Replace with your contact number
     },
   },
 };

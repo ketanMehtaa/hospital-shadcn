@@ -41,10 +41,10 @@ const faqs = [
       <>
         You can contact us via phone at{" "}
         <a
-          href="tel:+919548040347"
+          href="tel:+918449473664"
           className="font-semibold underline"
         >
-          +919548040347
+          +918449473664
         </a>{" "}
         or email us at{" "}
         <a
